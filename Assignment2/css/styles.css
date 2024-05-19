@@ -9,6 +9,9 @@
     .row {
         width:50%;
     }
+    .full-length {
+        width:100%;
+    }
 }
 
 @media (max-width : 767px){
