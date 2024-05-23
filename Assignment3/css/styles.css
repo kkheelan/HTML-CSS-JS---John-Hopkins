@@ -1,0 +1,115 @@
+
+@media (min-width : 992px){
+  .c-row{
+      width:33.3%;
+  }
+}
+
+@media (min-width : 768px) and (max-width : 991px){
+  .c-row {
+      width:50%;
+  }
+  .full-length {
+      width:100%;
+  }
+}
+
+@media (max-width : 767px){
+  .c-row {
+      width:100%;
+  }
+}
+* {
+  box-sizing: border-box;
+  
+}
+body {
+  font-style:helvetica;
+  padding:0px;
+  margin:0px;
+}
+body > p {
+  font-size:175%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container {
+  margin: 50px 0 50px;
+}
+
+.c-container {
+  box-sizing: border-box;
+  width : 100%;
+  position: relative;
+  
+}
+
+.c-row{
+  margin:0px;
+  padding:0px;
+  float:left;
+  position:relative;
+}
+
+.content {
+  margin:15px;
+  background-color: gray;
+  padding:10px;
+  /*border: 3px solid black*/
+}
+
+.section-heading {
+  float:right;
+  margin:0px;
+  padding:0px;
+  width:35%;
+  height: 35px;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  position:relative;
+  top:-10px;
+  right:-10px;
+  text-align: center;
+  padding: 5px
+}
+
+p{
+  clear:both
+}
+
+.s1 {
+  background-color: pink;
+  color: black;
+  font-size: 125%;
+}
+
+.s2 {
+  background-color: red;
+  color: white;
+  font-size: 125%;
+}
+.s3 {
+  background-color: yellow;
+  color: black;
+  font-size: 125%;
+}
+
+#nav-list {
+  margin-top: 10px;
+  background-color: #fadfdf;
+}
+#nav-list a {
+  color: #964d68;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-brand{
+  height: 100px;
+}
